@@ -10,27 +10,27 @@
       
       
       
-        <link rel="canonical" href="https://Hello-World-Vision.github.io/HelloWorld-Tutorial/tools/docker/">
+        <link rel="canonical" href="https://Hello-World-Vision.github.io/HelloWorld-Tutorial/infantry/">
       
       
-        <link rel="prev" href="../autostart/">
+        <link rel="prev" href="../serial-protocol/">
       
       
-        <link rel="next" href="../zsh/">
+        <link rel="next" href="../tools/">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.1.19">
     
     
       
-        <title>[Protected] Docker - HelloWorld 视觉组教程</title>
+        <title>[Protected] 自瞄开发日志 - HelloWorld 视觉组教程</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.eebd395e.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -41,7 +41,7 @@
       
     
     
-      <link rel="stylesheet" href="../../css/heti.css">
+      <link rel="stylesheet" href="../css/heti.css">
     
       <link rel="stylesheet" href="https://cdn.tonycrane.cc/utils/katex.min.css">
     
@@ -53,9 +53,9 @@
     
       <link rel="stylesheet" href="https://cdn.tonycrane.cc/turing2022/css/card.css">
     
-      <link rel="stylesheet" href="../../css/custom.css">
+      <link rel="stylesheet" href="../css/custom.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -85,6 +85,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#v1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="header.title">
-    <a href="../.." title="HelloWorld 视觉组教程" class="md-header__button md-logo" aria-label="HelloWorld 视觉组教程" data-md-component="logo">
+    <a href=".." title="HelloWorld 视觉组教程" class="md-header__button md-logo" aria-label="HelloWorld 视觉组教程" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4h-2M3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7H3m2-2v2h2V5H5m0 14h2v-2H5v2m0-6h2v-2H5v2Z"/></svg>
@@ -116,7 +121,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              [Protected] Docker
+              [Protected] 自瞄开发日志
             
           </span>
         </div>
@@ -235,7 +240,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="HelloWorld 视觉组教程" class="md-nav__button md-logo" aria-label="HelloWorld 视觉组教程" data-md-component="logo">
+    <a href=".." title="HelloWorld 视觉组教程" class="md-nav__button md-logo" aria-label="HelloWorld 视觉组教程" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4h-2M3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7H3m2-2v2h2V5H5m0 14h2v-2H5v2m0-6h2v-2H5v2Z"/></svg>
@@ -264,7 +269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -283,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contributing/" class="md-nav__link">
+      <a href="../contributing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -302,11 +307,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../operator/" class="md-nav__link">
+      <a href="../operator/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] 操作手指南
+    操作手指南
   </span>
   
 
@@ -321,11 +326,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serial-protocol/" class="md-nav__link">
+      <a href="../serial-protocol/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] 步兵协议
+    步兵协议
   </span>
   
 
@@ -338,9 +343,29 @@
       
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../infantry/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    [Protected] 自瞄开发日志
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -349,6 +374,80 @@
   
 
       </a>
+      
+        
+  
+  <nav class="md-nav md-nav--secondary mkdocs-encrypted-toc" aria-label="目录">
+    
+    
+    
+      
+    
+    
+      <label class="md-nav__title" for="__toc">
+        <span class="md-nav__icon md-icon"></span>
+        目录
+      </label>
+      <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+        
+          <li class="md-nav__item">
+  <a href="#20240525" class="md-nav__link">
+    2024.05.25
+  </a>
+  
+    <nav class="md-nav" aria-label="2024.05.25">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    测试项目一：距离解算
+  </a>
+  
+    <nav class="md-nav" aria-label="测试项目一：距离解算">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    尝试：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    思考：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    优化结果：
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    测试项目二：空气阻力系数
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    
+  </nav>
+      
     </li>
   
 
@@ -357,8 +456,6 @@
       
   
   
-    
-  
   
     
     
@@ -379,18 +476,18 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../tools/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -406,7 +503,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             常用工具
@@ -421,7 +518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mkdocs/" class="md-nav__link">
+      <a href="../tools/mkdocs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -441,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../git/" class="md-nav__link">
+      <a href="../tools/git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -461,43 +558,15 @@
   
   
     <li class="md-nav__item">
-      <a href="../autostart/" class="md-nav__link">
+      <a href="../tools/autostart/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] 自启动
+    自启动
   </span>
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    [Protected] Docker
-  </span>
-  
-
-      </a>
-      
     </li>
   
 
@@ -509,7 +578,27 @@
   
   
     <li class="md-nav__item">
-      <a href="../zsh/" class="md-nav__link">
+      <a href="../tools/docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/zsh/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -548,6 +637,70 @@
     
     
     
+      
+    
+    
+      <label class="md-nav__title" for="__toc">
+        <span class="md-nav__icon md-icon"></span>
+        目录
+      </label>
+      <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+        
+          <li class="md-nav__item">
+  <a href="#20240525" class="md-nav__link">
+    2024.05.25
+  </a>
+  
+    <nav class="md-nav" aria-label="2024.05.25">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    测试项目一：距离解算
+  </a>
+  
+    <nav class="md-nav" aria-label="测试项目一：距离解算">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    尝试：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    思考：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    优化结果：
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    测试项目二：空气阻力系数
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
     
   </nav>
                     
@@ -562,12 +715,12 @@
               <article class="md-content__inner md-typeset">
                 
                   
-<a href="https://github.com/Hello-World-Vision/HelloWorld-Tutorial/tree/master/docs/tools/docker.md" title="edit.link.title" class="md-content__button md-icon">
+<a href="https://github.com/Hello-World-Vision/HelloWorld-Tutorial/tree/master/docs/infantry.md" title="edit.link.title" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
 </a>
 
 
-<div id="mkdocs-encrypted-content" style="display:none">HXXYIokkT2cSaHM0jL/tdA==;AEB5qINypJv4f+xI3KGOt0LS77DZzdhgKZHTKXctknSjQPGwXhNDVJEPdjuWX7gO0VMxCv3Jw2MOzr8OC1CIBSU8uVyv0XfjO1W73++tD/+7Y4FQQvoZisA4kSTKSyWXkbjAN741SiyK7df3O7TZWNJTpMYUH65RSo91CP3l6FIIqXBR1pKsnypQ0xe8cBube08aqOyLRFeUo5+1GTl4HmkPibKCI1lk+TET1hjsk7rap/8dCMvyG4ZbFZ00zEPMybiJ2oq/vPUoWRbrc5Xr77Hs6we0E8lrs0rtYdAYXAVFNdqrq2nAUm65nZR6aH7Qkjc9METKureCx3XPslVZRyuwoACXhFTEY+izApPk1IXN2uxbrqUaj9ied4l6H/VHC4awpqBoKuS0ZdbTrxPBZ1lQmfe8SsrefH7j8hXwBFubgVGu94Rvq3Ngy+6CRtSdB5nbYaDGYV51qjL8g8cX8lgcTCVTzBY5mCCv6qMecGam+UvufGFhTi+ZLQQvqCiogNiHYqjFGsGJQA4iOIN5Pj9TK7sXFDqEEWC7YvOLG4C4f9XedPl/3UCdBXLAfKQQ1+eDB4lVuExva11BfaHtN5bu4d6NoJemYNM4PaYQQ8I=</div>
+<div id="mkdocs-encrypted-content" style="display:none">VbVB/j64WCcu3j+AyG9P6w==;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</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
         <h1>This content is protected with AES encryption. </h1>
@@ -580,7 +733,7 @@
 
 <script type="text/javascript">
 var encryptcontent_id = "encryptcontent_1";
-var encryptcontent_path = "HelloWorld-Tutorial/tools/docker/";
+var encryptcontent_path = "HelloWorld-Tutorial/infantry/";
 var decryption_failure_message = "Invalid password.";
 var encryptcontent_keystore = ["ZkmkQb/yhfyGkE6rh+KLmQ==;fpdJ+3w8Iqonyf6ltsY85uY+Nc7vc9KFqTECPwtyZzsYPrRFV/aHEXoDjzCkw6x6bcTTeTjTdJF4jW7Wt+mSuU2gvRmTXbUBOcs4BIebU1MmF+kSvpn0JUmGjMpF0Njk;EMhj3yu5p/03Rb/yasEeEA=="];
 var encryptcontent_obfuscate = 0;
@@ -593,7 +746,7 @@ var encryptcontent_obfuscate = 0;
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
-<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
+<script type="text/javascript" src="../assets/javascripts/decrypt-contents.js" defer></script>
 
                 
               </article>
@@ -616,7 +769,7 @@ var encryptcontent_obfuscate = 0;
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../autostart/" class="md-footer__link md-footer__link--prev" aria-label="上一页: [Protected] 自启动" rel="prev">
+          <a href="../serial-protocol/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 步兵协议" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -626,20 +779,20 @@ var encryptcontent_obfuscate = 0;
                 上一页
               </span>
               <div class="md-ellipsis">
-                [Protected] 自启动
+                步兵协议
               </div>
             </div>
           </a>
         
         
           
-          <a href="../zsh/" class="md-footer__link md-footer__link--next" aria-label="下一页: zsh" rel="next">
+          <a href="../tools/" class="md-footer__link md-footer__link--next" aria-label="下一页: 视觉组常用工具" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                zsh
+                视觉组常用工具
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -681,10 +834,10 @@ var encryptcontent_obfuscate = 0;
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "navigation.tracking", "navigation.indexes", "navigation.footer", "navigation.top", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "en", "search.config.pipeline": "stemmer", "search.config.separator": "[\\s\\u200b\\u3000\\-\u3001\u3002\uff0c\uff0e\uff1f\uff01\uff1b]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "navigation.tracking", "navigation.indexes", "navigation.footer", "navigation.top", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "en", "search.config.pipeline": "stemmer", "search.config.separator": "[\\s\\u200b\\u3000\\-\u3001\u3002\uff0c\uff0e\uff1f\uff01\uff1b]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   </body>
