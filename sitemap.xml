@@ -71,6 +71,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://Hello-World-Vision.github.io/HelloWorld-Tutorial/lidar/lidar/</loc>
+         <lastmod>2024-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://Hello-World-Vision.github.io/HelloWorld-Tutorial/sentry/</loc>
          <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
