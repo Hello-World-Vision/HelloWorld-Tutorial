@@ -51,6 +51,8 @@
     
       <link rel="stylesheet" href="../css/custom.css">
     
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1092,7 +1094,7 @@
   
 
 
-<div id="mkdocs-encrypted-content" style="display:none">selFZPFIbCWPdWDXO3L3lQ==;sKO6hwLPnNaGd87i//pBP+CZk8dQfxW9ay3Zb9r7Jww1YhUXFKBZ0Bw2FCYpKhmcJTJHp0BZo2UqQJ2s01ZNrFcRctVHnJ4fCVqbqdTlbhM5TYwGznoj8ncv70W+Yw01NanGwxHv8GL8DHXujZ4twC2BNuIb4ABAG3+4w1nn2wLwhMYywXpD8hORmQVy+LJrQYXZDPhKMGpgyXYiBPfFlhMv5GPyKD+V/o8ORl0b8FuP1zGTdbqrDRwBDE4So1C1N2ShMvxiqJtkFYcFXoR8xJQgkv+LaVRlufZyVx1F1+FzyG8ZKk76chIhG2AR0OtAD2U0ofrcGO5YsN0gcBNgFplhBuscgpNaaJCKxLYJX8vAUF9vdxU/0xDshl+KPk9QzF9g+CB2HE64O3IMPU8yZp+fywP2F+9/maj4K/lIYNeEIFh6poVHalpz0soFfPrapnD9YUP5cQJrWtMBV5FbTWtGrYqnQ5Zn3BRIImIFS2GfvVZITDZL+d/fDqobAnAX5MtJoQNc20hTUIwEHmspYryb/DKIh4KeCqFky4iUN5xhsiXZiULYiTrpUbQpg7orpE8dFosGDBRVKoEUzQ5ZFApiS8SQvMEALcWzOpKejcKcMOWNuwSRfQDJTvaWL5WUaJnqZc79dX3rncIGnym7ptEMi6K4Rd88Hy6S/P2y5TRAMG7igxwE6PHVo26metEbpRjqFLC62b/nLzPY7m8z/RwrLiAPkoN7lK8LEtSLDxOsd2Q2kYh80XkV/48C4mpZpz4teGJOeX0LXBuHdQs2ivv/DMSHeK8wxKKtjvGHN7qA2Non6cDqvN0tY82IDt+lENSe5/Wa1wC7Ah+dATZnvrMAVt9GNtdZk7Iuhg+3FuNw+IhIXVSpNR98iNA+nGNl+iYLjp47qqrSTJVpeoYvDn45Pxb14hFjlMcUlbBHac6OCOqIlD7/+K2cktT8icXHjx/vdov6U2SRhiwa5HSeDHR1ydYDv94T6fRaokZp83gW0jHnUiPaNTfDAUErO5hfxNmS9QX7eoJTQYNKKLAi6zZK1FWaB61ljNk9TY7f8mddufXrFh+3kQk2ATUqCtZ+N9Gh2XMxOmAXbEo8h4xbgpzlKw3mtjn8B86Rer6f/04=</div>
+<div id="mkdocs-encrypted-content" style="display:none">lcxMruFHVrWXhf5HfNZ6oQ==;oXStcVdnRQMKibvw9mnhVX0fCh0CODyrIEULYWYXve4lRxcyOq3uYGW4j+bu6qrkKzMSC1DJWiPGy6+spHtrwZYtW4VUnWvDwbDrQaEYlegKx7UxxKAqTbnVRCzVRXPRrBSc3zN0IoaehUqZFeq6uFjx+0rKEwLwlDYZpcTaeY/KN4oEIeDeWCrdOvA2FvreKKe1FiqVdIPqkHZkZn8K2W4wwRhMqwMuouBrn8xcS6OoaI4DckyoN5FMtlasV96YLke2oVppqHtYsviFAJ3Jn5sF14Ixz8Qxm1sBnK7CEy3v9ATDIVcjnS6Y5zxtvsvtz3y2IJUtfX9LqNp0J7GnIYc8qs6Lv2JEscmMZk12ieuGp3pCDBQKEr6r7Kgz0/0TgFSiuelVnORzWtKHuDWsDsnFUPeiZfFbluI5ewlCckUoiXmUw8nMChB5YBC9s9nDPXUzYSWfaakGrpQJDRe0ewLgpLc8e4S434HDQVw4bF+kWq2sxS6/VhYplvOC2kz9VjTFoSNB3xZGwdwCYxB1LyUCoGGoUHvuwko1ActIF4gM+efKdjSLsFTk4M6pTFkqy/ih9eqcc7Bvq/Lr5uSNWEB/HYqW16q3HR0LlJvmTbWVJU6+IqAe4Mfks9p3iIjqz97Z5pMJCCXQuyp+9bLtIqxtT6LSROhoyLW8Zd/+7DWsWrR3S3vSY54+PHEd7cidHHxnjV8dH5SzwN5LHANnSrNycZKL4q7K/hifzlt9huVb49LiKM5cPRD83OlXDlzNmqZugWt0isZtI+9QQLu20G86IjYIxUL4IlICjZMuGbgFunL2uYfZmo1GljDScqVqQtP7c+mcrAv4uccqutN+cnG8/ArOI666siun3b0MHAr9VEUQZRQbdrwOH4O/sb4xZy2wU1FT6jKDxiN1ERyAoDDZdV0D2KXsX0s2LklM8KNenq1M48vREqairbAWnfYByK+2jCuWVpuU0g5aPpFhJ5SvyLf9BSqxWXJPqK3iXdPbugTKwZfSt+5yvVgtvdjAwBVp8JiBkSiwztj0JB/DFt+aqVvW9xOnWbd2zWbichJBUISiRrMNJII+ELg9xeTxMHM5DZBH/JK7hu86Du4SBINs5i17i5MuNtYsUtFpgXE=</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
         <h1>This content is protected with AES encryption. </h1>
@@ -1107,7 +1109,7 @@
 var encryptcontent_id = "encryptcontent_1";
 var encryptcontent_path = "HelloWorld-Tutorial/autoaim/";
 var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["BwUm6k8mSQIYjSA31Z4h7g==;SVR4Wa9w4z+Ld6e+/XN8VjEl5s5MVnTdiyQCZ4P3JxdMtViMY3zg84goJ9OjM6lRuw2QwjF/QRuZsiNF9gBtpBbDMLKeXcAdF4OFfSIq0FBCbBXZEfI5sAjrCbHTBo5v;Q7phQGNo2JxsQUqREYwsCQ=="];
+var encryptcontent_keystore = ["9LTh4Qsik9jCggqDbx0UGg==;qFxGS/TuBsKah+dPYm4GKsGQ+aJ0RKum1oziIfy7/iuEyd1ixIwFXFMeC1oV700kK1HsebXhVTFxp+97ij4uBrlvxhRvdRDBIrbl3XoiLPI8hDd1+uMtf2Kz1bemqU0C;znI5p8iLoFyVhek2ukr6yA=="];
 var encryptcontent_obfuscate = 0;
 
 </script>
@@ -1187,6 +1189,26 @@ var encryptcontent_obfuscate = 0;
     
     
       <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../js/katex.js"></script>
+        
+      
+        
+          <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+        
+      
+        
+          <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+        
+      
+        
+          <script src="../js/mathjax.js"></script>
+        
+      
+        
+          <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
       
     
   </body>

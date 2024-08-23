@@ -55,6 +55,8 @@
     
       <link rel="stylesheet" href="../../css/custom.css">
     
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1108,7 +1110,7 @@
   
 
 
-<div id="mkdocs-encrypted-content" style="display:none">Ac+uisuk8yR7dq9W8krVvw==;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</div>
+<div id="mkdocs-encrypted-content" style="display:none">m4OdUz/cdQ2G2JIBF+QSpQ==;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</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
         <h1>This content is protected with AES encryption. </h1>
@@ -1123,7 +1125,7 @@
 var encryptcontent_id = "encryptcontent_1";
 var encryptcontent_path = "HelloWorld-Tutorial/tools/zsh/";
 var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["BwUm6k8mSQIYjSA31Z4h7g==;SVR4Wa9w4z+Ld6e+/XN8VjEl5s5MVnTdiyQCZ4P3JxdMtViMY3zg84goJ9OjM6lRuw2QwjF/QRuZsiNF9gBtpBbDMLKeXcAdF4OFfSIq0FBCbBXZEfI5sAjrCbHTBo5v;Q7phQGNo2JxsQUqREYwsCQ=="];
+var encryptcontent_keystore = ["9LTh4Qsik9jCggqDbx0UGg==;qFxGS/TuBsKah+dPYm4GKsGQ+aJ0RKum1oziIfy7/iuEyd1ixIwFXFMeC1oV700kK1HsebXhVTFxp+97ij4uBrlvxhRvdRDBIrbl3XoiLPI8hDd1+uMtf2Kz1bemqU0C;znI5p8iLoFyVhek2ukr6yA=="];
 var encryptcontent_obfuscate = 0;
 
 </script>
@@ -1241,6 +1243,26 @@ var encryptcontent_obfuscate = 0;
     
     
       <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../../js/katex.js"></script>
+        
+      
+        
+          <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+        
+      
+        
+          <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+        
+      
+        
+          <script src="../../js/mathjax.js"></script>
+        
+      
+        
+          <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
       
     
   </body>
