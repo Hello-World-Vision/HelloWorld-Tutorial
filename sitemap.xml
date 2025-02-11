@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://Hello-World-Vision.github.io/HelloWorld-Tutorial/general_tutorial/ros2-tricks/</loc>
+         <lastmod>2025-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://Hello-World-Vision.github.io/HelloWorld-Tutorial/lidar/</loc>
          <lastmod>2025-02-11</lastmod>
          <changefreq>daily</changefreq>
